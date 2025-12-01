@@ -1,0 +1,139 @@
+# this package is just an example, DO NOT USE
+[example]
+# typically a release tag, defaults to latest
+ver = "vX.Y.Z"
+
+# remote types: github, direct (not implemented yet)
+[example.remote.github]
+repo = "example/example"
+
+# platform-specific asset file names
+[example.remote.github.asset]
+"linux-x86_64"   = "example-x86_64-unknown-linux-musl.tar.gz"
+"windows-x86_64" = "example-x86_64-pc-windows-msvc.zip"
+
+# binaries
+[[example.bin]]
+# name of the binary inside the asset, defaults to the name of the package
+name = "example"
+# name to link the binary, defaults to the bin.name
+link = "example"
+
+
+### packages
+
+[7zz]
+[7zz.remote.github]
+repo = "Yangmoooo/7zz-bin"
+
+[aoc]
+[aoc.remote.github]
+repo = "scarvalhojr/aoc-cli"
+
+[btop]
+[btop.remote.github]
+repo = "aristocratos/btop"
+
+[chsrc]
+[chsrc.remote.github]
+repo = "RubyMetric/chsrc"
+
+[compiledb]
+[compiledb.remote.github]
+repo = "fcying/compiledb-go"
+
+[eza]
+[eza.remote.github]
+repo = "eza-community/eza"
+
+[fastfetch]
+[fastfetch.remote.github]
+repo = "fastfetch-cli/fastfetch"
+[fastfetch.remote.github.asset]
+"linux-x86_64" = "fastfetch-linux-amd64.tar.gz"
+
+[fd]
+[fd.remote.github]
+repo = "sharkdp/fd"
+
+[fnm]
+[fnm.remote.github]
+repo = "Schniz/fnm"
+[fnm.remote.github.asset]
+"linux-x86_64" = "fnm-linux"
+"windows-x86_64" = "fnm-windows"
+
+[fx]
+[fx.remote.github]
+repo = "antonmedv/fx"
+
+[fzf]
+[fzf.remote.github]
+repo = "junegunn/fzf"
+
+[hugo]
+[hugo.remote.github]
+repo = "gohugoio/hugo"
+
+[jq]
+[jq.remote.github]
+repo = "jqlang/jq"
+
+[just]
+[just.remote.github]
+repo = "casey/just"
+
+[magika]
+[magika.remote.github]
+repo = "google/magika"
+
+[onefetch]
+[onefetch.remote.github]
+repo = "o2sh/onefetch"
+[onefetch.remote.github.asset]
+"linux-x86_64" = "onefetch-linux"
+"windows-x86_64" = "onefetch-win"
+
+[pastel]
+[pastel.remote.github]
+repo = "sharkdp/pastel"
+
+[ripgrep]
+[ripgrep.remote.github]
+repo = "BurntSushi/ripgrep"
+[[ripgrep.bin]]
+name = "rg"
+
+[skate]
+[skate.remote.github]
+repo = "charmbracelet/skate"
+
+[tldr]
+[tldr.remote.github]
+repo = "tealdeer-rs/tealdeer"
+
+[tldx]
+[tldx.remote.github]
+repo = "brandonyoungdev/tldx"
+
+[tokei]
+[tokei.remote.github]
+repo = "XAMPPRocky/tokei"
+
+[uv]
+[uv.remote.github]
+repo = "astral-sh/uv"
+[[uv.bin]]
+name = "uv"
+[[uv.bin]]
+name = "uvx"
+
+[v2raya]
+[v2raya.remote.github]
+repo = "v2rayA/v2rayA"
+[v2raya.remote.github.asset]
+"linux-x86_64" = "v2raya_linux_x64"
+
+[zoxide]
+[zoxide.remote.github]
+repo = "ajeetdsouza/zoxide"
