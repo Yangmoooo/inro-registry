@@ -30,6 +30,15 @@ repo = "Yangmoooo/7zz-bin"
 [aoc.remote.github]
 repo = "scarvalhojr/aoc-cli"
 
+[aria2]
+[aria2.remote.github]
+repo = "aria2/aria2"
+[aria2.remote.github.asset]
+"windows-x86_64" = "win-64bit-build1"
+"linux-x86_64" = ".tar.xz"
+[[aria2.bin]]
+name = "aria2c"
+
 [btop]
 [btop.remote.github]
 repo = "aristocratos/btop"
@@ -37,6 +46,12 @@ repo = "aristocratos/btop"
 [chsrc]
 [chsrc.remote.github]
 repo = "RubyMetric/chsrc"
+
+[clang-format]
+[clang-format.remote.github]
+repo = "PolarGoose/clang-format-for-Windows"
+[clang-format.remote.github.asset]
+"windows-x86_64" = "clang-format.zip"
 
 [compiledb]
 [compiledb.remote.github]
@@ -137,3 +152,4 @@ repo = "v2rayA/v2rayA"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
