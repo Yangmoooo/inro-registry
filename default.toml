@@ -34,8 +34,8 @@ repo = "scarvalhojr/aoc-cli"
 [aria2.remote.github]
 repo = "aria2/aria2"
 [aria2.remote.github.asset]
-"windows-x86_64" = "win-64bit-build1"
 "linux-x86_64" = ".tar.xz"
+"windows-x86_64" = "win-64bit-build1"
 [[aria2.bin]]
 name = "aria2c"
 
@@ -52,6 +52,13 @@ repo = "RubyMetric/chsrc"
 repo = "PolarGoose/clang-format-for-Windows"
 [clang-format.remote.github.asset]
 "windows-x86_64" = "clang-format.zip"
+
+[clangd]
+[clangd.remote.github]
+repo = "clangd/clangd"
+[clangd.remote.github.asset]
+"linux-x86_64" = "clangd-linux"
+"windows-x86_64" = "clangd-windows"
 
 [compiledb]
 [compiledb.remote.github]
@@ -152,4 +159,3 @@ repo = "v2rayA/v2rayA"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
-
