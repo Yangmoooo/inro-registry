@@ -78,6 +78,18 @@ repo = "fastfetch-cli/fastfetch"
 [fd.remote.github]
 repo = "sharkdp/fd"
 
+[ffmpeg]
+[ffmpeg.remote.github]
+repo = "GyanD/codexffmpeg"
+[ffmpeg.remote.github.asset]
+"windows-x86_64" = "full_build.7z"
+[[ffmpeg.bin]]
+name = "ffmpeg"
+[[ffmpeg.bin]]
+name = "ffplay"
+[[ffmpeg.bin]]
+name = "ffprobe"
+
 [fnm]
 [fnm.remote.github]
 repo = "Schniz/fnm"
@@ -92,6 +104,12 @@ repo = "antonmedv/fx"
 [fzf]
 [fzf.remote.github]
 repo = "junegunn/fzf"
+
+[github-cli]
+[github-cli.remote.github]
+repo = "cli/cli"
+[[github-cli.bin]]
+name = "gh"
 
 [hugo]
 [hugo.remote.github]
@@ -159,3 +177,4 @@ repo = "v2rayA/v2rayA"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
