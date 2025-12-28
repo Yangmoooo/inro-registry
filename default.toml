@@ -123,6 +123,18 @@ repo = "jqlang/jq"
 [just.remote.github]
 repo = "casey/just"
 
+[lazydocker]
+[lazydocker.remote.github]
+repo = "jesseduffield/lazydocker"
+
+[lazygit]
+[lazygit.remote.github]
+repo = "jesseduffield/lazygit"
+
+[leetgo]
+[leetgo.remote.github]
+repo = "j178/leetgo"
+
 [magika]
 [magika.remote.github]
 repo = "google/magika"
@@ -177,4 +189,5 @@ repo = "v2rayA/v2rayA"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
 
