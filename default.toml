@@ -186,8 +186,10 @@ repo = "v2rayA/v2rayA"
 [v2raya.remote.github.asset]
 "linux-x86_64" = "v2raya_linux_x64"
 
+[witr]
+[witr.remote.github]
+repo = "pranshuparmar/witr"
+
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
-
-
