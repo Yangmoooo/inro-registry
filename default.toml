@@ -190,6 +190,11 @@ repo = "v2rayA/v2rayA"
 [witr.remote.github]
 repo = "pranshuparmar/witr"
 
+[yazi]
+[yazi.remote.github]
+repo = "sxyazi/yazi"
+
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
