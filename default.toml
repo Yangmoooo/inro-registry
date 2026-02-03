@@ -82,7 +82,7 @@ repo = "sharkdp/fd"
 [ffmpeg.remote.github]
 repo = "GyanD/codexffmpeg"
 [ffmpeg.remote.github.asset]
-"windows-x86_64" = "full_build.7z"
+"windows-x86_64" = "full_build.zip"
 [[ffmpeg.bin]]
 name = "ffmpeg"
 [[ffmpeg.bin]]
@@ -197,4 +197,5 @@ repo = "sxyazi/yazi"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
 
