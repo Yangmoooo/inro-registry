@@ -135,6 +135,10 @@ repo = "jesseduffield/lazygit"
 [leetgo.remote.github]
 repo = "j178/leetgo"
 
+[llmfit]
+[llmfit.remote.github]
+repo = "AlexsJones/llmfit"
+
 [magika]
 [magika.remote.github]
 repo = "google/magika"
@@ -197,5 +201,6 @@ repo = "sxyazi/yazi"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
 
 
