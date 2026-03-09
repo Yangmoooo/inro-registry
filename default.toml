@@ -64,6 +64,10 @@ repo = "clangd/clangd"
 [compiledb.remote.github]
 repo = "fcying/compiledb-go"
 
+[dust]
+[dust.remote.github]
+repo = "bootandy/dust"
+
 [eza]
 [eza.remote.github]
 repo = "eza-community/eza"
@@ -198,6 +202,10 @@ repo = "v2rayA/v2rayA"
 [witr.remote.github]
 repo = "pranshuparmar/witr"
 
+[xh]
+[xh.remote.github]
+repo = "ducaale/xh"
+
 [yazi]
 [yazi.remote.github]
 repo = "sxyazi/yazi"
@@ -205,6 +213,7 @@ repo = "sxyazi/yazi"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
 
 
 
