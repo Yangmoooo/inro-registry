@@ -35,7 +35,7 @@ repo = "scarvalhojr/aoc-cli"
 repo = "aria2/aria2"
 [aria2.remote.github.asset]
 "linux-x86_64" = ".tar.xz"
-"windows-x86_64" = "win-64bit-build1"
+"windows-x86_64" = "-win-64bit-build1.zip"
 [[aria2.bin]]
 name = "aria2c"
 
@@ -57,8 +57,28 @@ repo = "PolarGoose/clang-format-for-Windows"
 [clangd.remote.github]
 repo = "clangd/clangd"
 [clangd.remote.github.asset]
-"linux-x86_64" = "clangd-linux"
-"windows-x86_64" = "clangd-windows"
+"linux-x86_64" = "clangd-linux-"
+"windows-x86_64" = "clangd-windows-"
+
+[codex]
+[codex.remote.github]
+repo = "openai/codex"
+[codex.remote.github.asset]
+"linux-x86_64" = "codex-x86_64-unknown-linux-musl.tar.gz"
+"windows-x86_64" = "codex-x86_64-pc-windows-msvc.exe.zip"
+[[codex.bin]]
+[codex.bin.name]
+"linux-x86_64" = "codex-x86_64-unknown-linux-musl"
+"windows-x86_64" = "codex-x86_64-pc-windows-msvc"
+[codex.bin.link]
+"linux-x86_64" = "codex"
+"windows-x86_64" = "codex"
+[[codex.bin]]
+[codex.bin.name]
+"windows-x86_64" = "codex-windows-sandbox-setup"
+[[codex.bin]]
+[codex.bin.name]
+"windows-x86_64" = "codex-command-runner"
 
 [compiledb]
 [compiledb.remote.github]
@@ -86,7 +106,7 @@ repo = "sharkdp/fd"
 [ffmpeg.remote.github]
 repo = "GyanD/codexffmpeg"
 [ffmpeg.remote.github.asset]
-"windows-x86_64" = "full_build.zip"
+"windows-x86_64" = "-full_build.zip"
 [[ffmpeg.bin]]
 name = "ffmpeg"
 [[ffmpeg.bin]]
@@ -98,8 +118,8 @@ name = "ffprobe"
 [fnm.remote.github]
 repo = "Schniz/fnm"
 [fnm.remote.github.asset]
-"linux-x86_64" = "fnm-linux"
-"windows-x86_64" = "fnm-windows"
+"linux-x86_64" = "fnm-linux.zip"
+"windows-x86_64" = "fnm-windows.zip"
 
 [fx]
 [fx.remote.github]
@@ -155,8 +175,8 @@ repo = "google/magika"
 [onefetch.remote.github]
 repo = "o2sh/onefetch"
 [onefetch.remote.github.asset]
-"linux-x86_64" = "onefetch-linux"
-"windows-x86_64" = "onefetch-win"
+"linux-x86_64" = "onefetch-linux.tar.gz"
+"windows-x86_64" = "onefetch-win.tar.gz"
 
 [pastel]
 [pastel.remote.github]
@@ -192,12 +212,6 @@ name = "uv"
 [[uv.bin]]
 name = "uvx"
 
-[v2raya]
-[v2raya.remote.github]
-repo = "v2rayA/v2rayA"
-[v2raya.remote.github.asset]
-"linux-x86_64" = "v2raya_linux_x64"
-
 [witr]
 [witr.remote.github]
 repo = "pranshuparmar/witr"
@@ -213,6 +227,7 @@ repo = "sxyazi/yazi"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
 
 
 
