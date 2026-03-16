@@ -188,6 +188,13 @@ repo = "BurntSushi/ripgrep"
 [[ripgrep.bin]]
 name = "rg"
 
+[resvg]
+[resvg.remote.github]
+repo = "linebender/resvg"
+[resvg.remote.github.asset]
+"linux-x86_64" = "resvg-linux-x86_64.tar.gz"
+"windows-x86_64" = "resvg-win64.zip"
+
 [skate]
 [skate.remote.github]
 repo = "charmbracelet/skate"
