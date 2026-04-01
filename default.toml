@@ -182,18 +182,22 @@ repo = "o2sh/onefetch"
 [pastel.remote.github]
 repo = "sharkdp/pastel"
 
-[ripgrep]
-[ripgrep.remote.github]
-repo = "BurntSushi/ripgrep"
-[[ripgrep.bin]]
-name = "rg"
-
 [resvg]
 [resvg.remote.github]
 repo = "linebender/resvg"
 [resvg.remote.github.asset]
 "linux-x86_64" = "resvg-linux-x86_64.tar.gz"
 "windows-x86_64" = "resvg-win64.zip"
+
+[ripgrep]
+[ripgrep.remote.github]
+repo = "BurntSushi/ripgrep"
+[[ripgrep.bin]]
+name = "rg"
+
+[rtk]
+[rtk.remote.github]
+repo = "rtk-ai/rtk"
 
 [skate]
 [skate.remote.github]
