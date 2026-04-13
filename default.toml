@@ -171,6 +171,18 @@ repo = "AlexsJones/llmfit"
 [magika.remote.github]
 repo = "google/magika"
 
+[neovim]
+[neovim.remote.github]
+repo = "neovim/neovim"
+[[neovim.bin]]
+name = "nvim"
+
+[neovim-release]
+[neovim-release.remote.github]
+repo = "neovim/neovim-releases"
+[[neovim-release.bin]]
+name = "nvim"
+
 [onefetch]
 [onefetch.remote.github]
 repo = "o2sh/onefetch"
@@ -210,6 +222,10 @@ repo = "tldr-pages/tlrc"
 [tldx]
 [tldx.remote.github]
 repo = "brandonyoungdev/tldx"
+
+[tmux]
+[tmux.remote.github]
+repo = "tmux/tmux-builds"
 
 [tokei]
 [tokei.remote.github]
