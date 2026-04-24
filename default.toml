@@ -33,9 +33,6 @@ repo = "scarvalhojr/aoc-cli"
 [aria2]
 [aria2.remote.github]
 repo = "aria2/aria2"
-[aria2.remote.github.asset]
-"linux-x86_64" = ".tar.xz"
-"windows-x86_64" = "-win-64bit-build1.zip"
 [[aria2.bin]]
 name = "aria2c"
 
@@ -50,28 +47,22 @@ repo = "RubyMetric/chsrc"
 [clang-format]
 [clang-format.remote.github]
 repo = "PolarGoose/clang-format-for-Windows"
-[clang-format.remote.github.asset]
-"windows-x86_64" = "clang-format.zip"
 
 [clangd]
 [clangd.remote.github]
 repo = "clangd/clangd"
-[clangd.remote.github.asset]
-"linux-x86_64" = "clangd-linux-"
-"windows-x86_64" = "clangd-windows-"
 
 [codex]
 [codex.remote.github]
 repo = "openai/codex"
-[codex.remote.github.asset]
-"linux-x86_64" = "codex-x86_64-unknown-linux-musl.tar.gz"
-"windows-x86_64" = "codex-x86_64-pc-windows-msvc.exe.zip"
 [[codex.bin]]
 [codex.bin.name]
 "linux-x86_64" = "codex-x86_64-unknown-linux-musl"
+"macos-aarch64" = "codex-aarch64-apple-darwin"
 "windows-x86_64" = "codex-x86_64-pc-windows-msvc"
 [codex.bin.link]
 "linux-x86_64" = "codex"
+"macos-aarch64" = "codex"
 "windows-x86_64" = "codex"
 [[codex.bin]]
 [codex.bin.name]
@@ -95,8 +86,6 @@ repo = "eza-community/eza"
 [fastfetch]
 [fastfetch.remote.github]
 repo = "fastfetch-cli/fastfetch"
-[fastfetch.remote.github.asset]
-"linux-x86_64" = "fastfetch-linux-amd64.tar.gz"
 
 [fd]
 [fd.remote.github]
@@ -105,8 +94,6 @@ repo = "sharkdp/fd"
 [ffmpeg]
 [ffmpeg.remote.github]
 repo = "GyanD/codexffmpeg"
-[ffmpeg.remote.github.asset]
-"windows-x86_64" = "-full_build.zip"
 [[ffmpeg.bin]]
 name = "ffmpeg"
 [[ffmpeg.bin]]
@@ -117,9 +104,6 @@ name = "ffprobe"
 [fnm]
 [fnm.remote.github]
 repo = "Schniz/fnm"
-[fnm.remote.github.asset]
-"linux-x86_64" = "fnm-linux.zip"
-"windows-x86_64" = "fnm-windows.zip"
 
 [fx]
 [fx.remote.github]
@@ -186,9 +170,6 @@ name = "nvim"
 [onefetch]
 [onefetch.remote.github]
 repo = "o2sh/onefetch"
-[onefetch.remote.github.asset]
-"linux-x86_64" = "onefetch-linux.tar.gz"
-"windows-x86_64" = "onefetch-win.tar.gz"
 
 [pastel]
 [pastel.remote.github]
@@ -197,9 +178,6 @@ repo = "sharkdp/pastel"
 [resvg]
 [resvg.remote.github]
 repo = "linebender/resvg"
-[resvg.remote.github.asset]
-"linux-x86_64" = "resvg-linux-x86_64.tar.gz"
-"windows-x86_64" = "resvg-win64.zip"
 
 [ripgrep]
 [ripgrep.remote.github]
@@ -254,10 +232,5 @@ repo = "sxyazi/yazi"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
-
-
-
-
-
 
 
