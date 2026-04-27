@@ -77,6 +77,10 @@ repo = "openai/codex"
 [compiledb.remote.github]
 repo = "fcying/compiledb-go"
 
+[delta]
+[delta.remote.github]
+repo = "dandavison/delta"
+
 [dust]
 [dust.remote.github]
 repo = "bootandy/dust"
