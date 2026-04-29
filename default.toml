@@ -195,6 +195,10 @@ name = "rg"
 [rtk.remote.github]
 repo = "rtk-ai/rtk"
 
+[ruff]
+[ruff.remote.github]
+repo = "astral-sh/ruff"
+
 [skate]
 [skate.remote.github]
 repo = "charmbracelet/skate"
