@@ -203,6 +203,10 @@ repo = "astral-sh/ruff"
 [skate.remote.github]
 repo = "charmbracelet/skate"
 
+[sd]
+[sd.remote.github]
+repo = "chmln/sd"
+
 [tldr]
 [tldr.remote.github]
 repo = "tldr-pages/tlrc"
