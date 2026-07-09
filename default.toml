@@ -42,6 +42,10 @@ name = "aria2c"
 [btop.remote.github]
 repo = "aristocratos/btop"
 
+[bun]
+[bun.remote.github]
+repo = "oven-sh/bun"
+
 [chsrc]
 [chsrc.remote.github]
 repo = "RubyMetric/chsrc"
@@ -125,6 +129,10 @@ repo = "cli/cli"
 [[github-cli.bin]]
 name = "gh"
 
+[glow]
+[glow.remote.github]
+repo = "charmbracelet/glow"
+
 [hugo]
 [hugo.remote.github]
 repo = "gohugoio/hugo"
@@ -176,6 +184,10 @@ name = "nvim"
 [onefetch]
 [onefetch.remote.github]
 repo = "o2sh/onefetch"
+
+[opencode]
+[opencode.remote.github]
+repo = "anomalyco/opencode"
 
 [pastel]
 [pastel.remote.github]
