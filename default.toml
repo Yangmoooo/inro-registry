@@ -242,6 +242,8 @@ repo = "astral-sh/uv"
 name = "uv"
 [[uv.bin]]
 name = "uvx"
+[[uv.bin]]
+name = "uvw"
 
 [witr]
 [witr.remote.github]
