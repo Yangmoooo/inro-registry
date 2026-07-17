@@ -243,7 +243,8 @@ name = "uv"
 [[uv.bin]]
 name = "uvx"
 [[uv.bin]]
-name = "uvw"
+[uv.bin.name]
+"windows-x86_64" = "uvw"
 
 [witr]
 [witr.remote.github]
