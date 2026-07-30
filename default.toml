@@ -193,6 +193,10 @@ repo = "anomalyco/opencode"
 [pastel.remote.github]
 repo = "sharkdp/pastel"
 
+[peep]
+[peep.remote.github]
+repo = "Yangmoooo/peep"
+
 [resvg]
 [resvg.remote.github]
 repo = "linebender/resvg"
