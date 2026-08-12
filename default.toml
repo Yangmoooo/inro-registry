@@ -197,6 +197,10 @@ repo = "sharkdp/pastel"
 [peep.remote.github]
 repo = "Yangmoooo/peep"
 
+[pi]
+[pi.remote.github]
+repo = "earendil-works/pi"
+
 [resvg]
 [resvg.remote.github]
 repo = "linebender/resvg"
