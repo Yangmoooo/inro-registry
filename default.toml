@@ -22,7 +22,7 @@ name = "example"
 link = "example"
 
 
-### packages
+### GitHub packages
 
 [7zz]
 [7zz.remote.github]
@@ -258,5 +258,21 @@ repo = "sxyazi/yazi"
 [zoxide]
 [zoxide.remote.github]
 repo = "ajeetdsouza/zoxide"
+
+### Direct packages
+
+[sqlite]
+[sqlite.remote.direct."3.53.4"]
+"linux-x86_64" = "https://www.sqlite.org/2026/sqlite-tools-linux-x64-3530400.zip"
+"macos-aarch64" = "https://www.sqlite.org/2026/sqlite-tools-osx-arm64-3530400.zip"
+"windows-x86_64" = "https://www.sqlite.org/2026/sqlite-tools-win-x64-3530400.zip"
+[[sqlite.bin]]
+name = "sqlite3"
+[[sqlite.bin]]
+name = "sqldiff"
+[[sqlite.bin]]
+name = "sqlite3_analyzer"
+[[sqlite.bin]]
+name = "sqlite3_rsync"
 
 
