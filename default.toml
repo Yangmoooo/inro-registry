@@ -232,6 +232,10 @@ repo = "tmux/tmux-builds"
 [tokei.remote.github]
 repo = "XAMPPRocky/tokei"
 
+[upx]
+[upx.remote.github]
+repo = "upx/upx"
+
 [uv]
 [uv.remote.github]
 repo = "astral-sh/uv"
