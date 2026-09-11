@@ -280,54 +280,45 @@ name = "sqlite3_analyzer"
 name = "sqlite3_rsync"
 
 [mysql]
+# To customize, copy this [mysql] bin list into registry.d/local.toml and toggle
+# entries there. Local bin lists replace the whole upstream list; URLs are inherited.
+# Apply changes to an active installation with `inro relink mysql` (inro >= 1.2.0).
+bin = [
+    { name = "mysql" },
+    { name = "mysqldump" },
+    { name = "mysqladmin" },
+    { name = "mysql_config_editor" },
+
+    { name = "mysqld" },
+    { name = "mysqld_safe" },
+
+    # { name = "mysql_secure_installation" },
+    # { name = "mysqlbinlog" },
+    # { name = "mysqlcheck" },
+    # { name = "mysqlimport" },
+    # { name = "mysqlshow" },
+    # { name = "mysqlslap" },
+    # { name = "mysqldumpslow" },
+    # { name = "mysqld_multi" },
+    # { name = "mysql_tzinfo_to_sql" },
+    # { name = "my_print_defaults" },
+    # { name = "perror" },
+
+    # { name = "mysql_config" },
+    # { name = "mysql_migrate_keyring" },
+    # { name = "ibd2sdi" },
+    # { name = "innochecksum" },
+
+    # { name = "myisamchk" },
+    # { name = "myisam_ftdump" },
+    # { name = "myisamlog" },
+    # { name = "myisampack" },
+
+    # { name = { "macos-aarch64" = "mysqld-debug" } },
+]
 [mysql.remote.direct."8.4.11"]
 "linux-x86_64" = "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.11-linux-glibc2.28-x86_64-minimal.tar.xz"
 "macos-aarch64" = "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.11-macos15-arm64.tar.gz"
 [mysql.remote.direct."9.7.2"]
 "linux-x86_64" = "https://dev.mysql.com/get/Downloads/MySQL-9.7/mysql-9.7.2-linux-glibc2.28-x86_64-minimal.tar.xz"
 "macos-aarch64" = "https://dev.mysql.com/get/Downloads/MySQL-9.7/mysql-9.7.2-macos15-arm64.tar.gz"
-# Keep the complete archive layout: bin/, lib/, share/, and support-files/.
-# To customize, copy this [mysql] bin list into registry.d/local.toml and toggle
-# entries there. Local bin lists replace the whole upstream list; URLs are inherited.
-# Apply changes to an active installation with `inro relink mysql` (inro >= 1.2.0).
-# Server initialization and service management are separate; keep datadir outside
-# inro's package version directory so upgrades and removals do not delete databases.
-bin = [
-    # Common clients
-    { name = "mysql" },               # Interactive SQL client and SQL script execution
-    { name = "mysqldump" },           # Logical backups and SQL exports
-    { name = "mysqladmin" },          # Server status, ping, shutdown, and administration
-    { name = "mysql_config_editor" }, # Reusable login paths in .mylogin.cnf
-
-    # Local server (comment out when only connecting to remote databases)
-    { name = "mysqld" },      # Database server and data directory initialization
-    { name = "mysqld_safe" }, # Server startup and restart supervision
-
-    # Administration and diagnostics
-    # { name = "mysql_secure_installation" },  # Initial account and security configuration
-    # { name = "mysqlbinlog" },                # Inspect binary logs and replay changes
-    # { name = "mysqlcheck" },                 # Table checks and maintenance via the server
-    # { name = "mysqlimport" },                # Load delimited text files, not SQL dumps
-    # { name = "mysqlshow" },                  # List databases, tables, columns, and indexes
-    # { name = "mysqlslap" },                  # Simulate concurrent client load
-    # { name = "mysqldumpslow" },              # Summarize slow query logs
-    # { name = "mysqld_multi" },               # Manage multiple local server instances
-    # { name = "mysql_tzinfo_to_sql" },        # Convert system time zone data to SQL
-    # { name = "my_print_defaults" },          # Inspect options from configuration groups
-    # { name = "perror" },                     # Explain system and storage engine error codes
-
-    # Development, encryption, and InnoDB file diagnostics
-    # { name = "mysql_config" },               # Compiler and linker flags for C clients
-    # { name = "mysql_migrate_keyring" },      # Migrate keys between keyring components
-    # { name = "ibd2sdi" },                    # Extract dictionary metadata from tablespaces
-    # { name = "innochecksum" },               # Offline InnoDB page checksum verification
-
-    # MyISAM-specific utilities
-    # { name = "myisamchk" },                  # Check, repair, and optimize MyISAM table files
-    # { name = "myisam_ftdump" },              # Inspect MyISAM full-text indexes
-    # { name = "myisamlog" },                  # Inspect MyISAM operation logs
-    # { name = "myisampack" },                 # Produce compressed read-only MyISAM tables
-
-    # Debug server: only present in the macOS archive
-    # { name = { "macos-aarch64" = "mysqld-debug" } },
-]
