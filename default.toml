@@ -317,8 +317,9 @@ bin = [
     # { name = { "macos-aarch64" = "mysqld-debug" } },
 ]
 [mysql.remote.direct."8.4.11"]
-"linux-x86_64" = "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.11-linux-glibc2.28-x86_64-minimal.tar.xz"
-"macos-aarch64" = "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.11-macos15-arm64.tar.gz"
+# Use the official CDN; dev.mysql.com/get/ can reject inro's User-Agent with 403.
+"linux-x86_64" = "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.11-linux-glibc2.28-x86_64-minimal.tar.xz"
+"macos-aarch64" = "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.11-macos15-arm64.tar.gz"
 [mysql.remote.direct."9.7.2"]
-"linux-x86_64" = "https://dev.mysql.com/get/Downloads/MySQL-9.7/mysql-9.7.2-linux-glibc2.28-x86_64-minimal.tar.xz"
-"macos-aarch64" = "https://dev.mysql.com/get/Downloads/MySQL-9.7/mysql-9.7.2-macos15-arm64.tar.gz"
+"linux-x86_64" = "https://cdn.mysql.com/Downloads/MySQL-9.7/mysql-9.7.2-linux-glibc2.28-x86_64-minimal.tar.xz"
+"macos-aarch64" = "https://cdn.mysql.com/Downloads/MySQL-9.7/mysql-9.7.2-macos15-arm64.tar.gz"
