@@ -208,13 +208,17 @@ repo = "rtk-ai/rtk"
 [ruff.remote.github]
 repo = "astral-sh/ruff"
 
+[sd]
+[sd.remote.github]
+repo = "chmln/sd"
+
 [skate]
 [skate.remote.github]
 repo = "charmbracelet/skate"
 
-[sd]
-[sd.remote.github]
-repo = "chmln/sd"
+[swiftlint]
+[swiftlint.remote.github]
+repo = "realm/SwiftLint"
 
 [tldr]
 [tldr.remote.github]
@@ -250,6 +254,10 @@ name = "uvx"
 [witr]
 [witr.remote.github]
 repo = "pranshuparmar/witr"
+
+[xcodegen]
+[xcodegen.remote.github]
+repo = "yonaskolb/xcodegen"
 
 [xh]
 [xh.remote.github]
