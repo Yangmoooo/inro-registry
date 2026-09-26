@@ -58,6 +58,10 @@ repo = "PolarGoose/clang-format-for-Windows"
 [clangd.remote.github]
 repo = "clangd/clangd"
 
+[cloudflared]
+[cloudflared.remote.github]
+repo = "cloudflare/cloudflared"
+
 [codex]
 [codex.remote.github]
 repo = "openai/codex"
