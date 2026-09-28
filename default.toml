@@ -277,6 +277,13 @@ repo = "ajeetdsouza/zoxide"
 
 ### Direct packages
 
+[terraform]
+[terraform.remote.direct."1.16.4"]
+"linux-x86_64" = "https://releases.hashicorp.com/terraform/1.16.4/terraform_1.16.4_linux_amd64.zip"
+"linux-aarch64" = "https://releases.hashicorp.com/terraform/1.16.4/terraform_1.16.4_linux_arm64.zip"
+"macos-aarch64" = "https://releases.hashicorp.com/terraform/1.16.4/terraform_1.16.4_darwin_arm64.zip"
+"windows-x86_64" = "https://releases.hashicorp.com/terraform/1.16.4/terraform_1.16.4_windows_amd64.zip"
+
 [sqlite]
 [sqlite.remote.direct."3.53.4"]
 "linux-x86_64" = "https://www.sqlite.org/2026/sqlite-tools-linux-x64-3530400.zip"
