@@ -38,6 +38,10 @@ repo = "aria2/aria2"
 [[aria2.bin]]
 name = "aria2c"
 
+[bgx]
+[bgx.remote.github]
+repo = "Yangmoooo/bgx"
+
 [btop]
 [btop.remote.github]
 repo = "aristocratos/btop"
