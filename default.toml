@@ -182,6 +182,10 @@ name = "nvim"
 [onefetch.remote.github]
 repo = "o2sh/onefetch"
 
+[opam]
+[opam.remote.github]
+repo = "ocaml/opam"
+
 [opencode]
 [opencode.remote.github]
 repo = "anomalyco/opencode"
