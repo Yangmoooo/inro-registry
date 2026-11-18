@@ -126,6 +126,10 @@ repo = "cli/cli"
 [[github-cli.bin]]
 name = "gh"
 
+[gleam]
+[gleam.remote.github]
+repo = "gleam-lang/gleam"
+
 [glow]
 [glow.remote.github]
 repo = "charmbracelet/glow"
